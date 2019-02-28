@@ -18,6 +18,20 @@ router.get('/background.jpg/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+router.get('/strawberry.png/',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/strawberry.png'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/truck.png/',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/truck.png'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/globe.png/',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/globe.png'));
+  //__dirname : It will resolve to your project folder.
+});
 
 //add the router
 app.use('/', router);
