@@ -48,6 +48,16 @@ router.get('/smoothies/blueberry',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+router.get('/smoothies/kale',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/kaleSmoothie.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/smoothies/pome',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/pomegranateSmoothie.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
 //add the router
 app.use('/', router);
 app.listen(process.env.port || 8000);
