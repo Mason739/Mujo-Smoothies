@@ -71,6 +71,13 @@ body {
     object-fit: scale-down;
 }
 
+.shop-image {
+  width: 100%;
+  /* height: 100%; */
+
+  object-fit: scale-down;
+}
+
 .row {
     display: table;
 }
@@ -256,6 +263,8 @@ h3 {
   padding: 10px 20px;
   font-weight: bold;
 }
+
+
 
 /*
  * Affix and center

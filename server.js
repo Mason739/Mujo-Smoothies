@@ -33,6 +33,21 @@ router.get('/globe.png/',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+router.get('/browse/',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/browse.html'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/smoothies/strawberry',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/strawberrySmoothie.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/smoothies/blueberry',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/blueberrySmoothie.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
 //add the router
 app.use('/', router);
 app.listen(process.env.port || 8000);
