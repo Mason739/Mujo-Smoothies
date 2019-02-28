@@ -58,6 +58,26 @@ router.get('/smoothies/pome',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+router.get('/smoothies/banana',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/bananaSmoothie.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/smoothies/strawberrybanana',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/strawBananaSmoothie.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/smoothies/superfruit',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/superfruit.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
+router.get('/smoothies/strawbananapb',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/strawberrybananaPB.jpg'));
+  //__dirname : It will resolve to your project folder.
+});
+
 //add the router
 app.use('/', router);
 app.listen(process.env.port || 8000);
