@@ -41,48 +41,9 @@ body {
 body {
   color: #fff;
   text-align: center;
-  /* text-shadow: 0 1px 3px rgba(0,0,0,.5); */
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-.text-in-panel {
-  font-size: 18px;;
-}
-
-.left-text-in-panel li {
-  text-align: left !important;
-}
-
-.glyphicon .glyphicon-check {
-  color: #2fcd00;
-}
-
-.checkmark {
-  color: #30d700;
-  font-size: 25px;;
-  margin-right: 10px;
-}
-
-
-
-.row {
-    display: table;
-}
-
-[class*="col-"] {
-    float: none;
-    display: table-cell;
-    vertical-align: top;
-}
-
-
-.panel-body {
-  color:#000;
-  height: 100%;
-}
-
-h3 {
-  font-weight: bold;
-}
 
 .bg-color {
   background-image: linear-gradient(
