@@ -78,6 +78,12 @@ router.get('/smoothies/strawbananapb',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+
+router.get('/product',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/product.html'));
+  //__dirname : It will resolve to your project folder.
+});
+
 //add the router
 app.use('/', router);
 app.listen(process.env.port || 8000);
