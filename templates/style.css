@@ -263,6 +263,22 @@ h3 {
 }
 
 
+
+.money {
+  text-align: left;
+  color: #B12704;
+  padding-left: 30px;
+}
+
+.text {
+  color: #000000;
+  text-align: right;
+}
+
+.small-stuff {
+  font-size: smaller;
+}
+
 /*
  * Cover
  */
