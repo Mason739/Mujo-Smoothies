@@ -45,11 +45,25 @@ body {
 }
 
 .text-in-panel {
-  font-size: 18px;;
+  font-size: 18px;
 }
 
 .left-text-in-panel li {
   text-align: left !important;
+}
+
+.left-text-in-panel {
+  text-align: left !important;
+}
+
+.light-outline {
+  border-color: black;
+  border-radius: 5px;
+  border-width: thin;
+  border-style: solid;
+
+  padding: 5px;
+
 }
 
 .glyphicon .glyphicon-check {
@@ -276,7 +290,6 @@ h3 {
 }
 
 .small-stuff {
-  font-size: smaller;
 }
 
 /*
