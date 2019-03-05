@@ -93,11 +93,15 @@ body {
 }
 
 .info-text-small {
-  font-size: small;;
+  /* font-size: small;; */
 }
 
 .info-text-large {
   font-size: 50px;;
+}
+
+.info-text-medium {
+  font-size: 40px;;
 }
 
 .shop-image {
@@ -336,4 +340,58 @@ h3 {
     vertical-align: middle;
   }
 
+}
+
+
+
+
+
+
+
+
+/*
+  Nutrition facts stuff
+ */
+
+.nutrition-facts-label {
+  padding: 0px 30px;
+
+
+}
+
+.nutrition-border {
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.nutrition-border-space {
+  padding: 20px;
+}
+
+.nutrition-facts-title {
+  color: black;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;;
+  text-align: left;
+
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 2px;
+
+  margin-bottom: 0;
+}
+
+.nutrition-servings-per-container {
+  color: black;
+  text-align: left;
+  margin-bottom: 0;
+
+}
+
+.nutrition-serving-size {
+  color: black;
+  text-align: left;
+  margin-top: 0;
+  font-weight: bold;
 }
