@@ -286,7 +286,7 @@ h3 {
 
 .text {
   color: #000000;
-  text-align: right;
+  /* text-align: right; */
 }
 
 .small-stuff {
