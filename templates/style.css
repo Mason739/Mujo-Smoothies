@@ -57,7 +57,7 @@ body {
 }
 
 .light-outline {
-  border-color: black;
+  border-color: #656565;
   border-radius: 5px;
   border-width: thin;
   border-style: solid;

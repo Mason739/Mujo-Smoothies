@@ -84,6 +84,11 @@ router.get('/product',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+router.get('/product/js',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/productJS.js'));
+  //__dirname : It will resolve to your project folder.
+});
+
 //add the router
 app.use('/', router);
 app.listen(process.env.port || 8000);

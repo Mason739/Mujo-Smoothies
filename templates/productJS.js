@@ -1,0 +1,3 @@
+myScript = function() {
+  alert("Working");
+}

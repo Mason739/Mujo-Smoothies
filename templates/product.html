@@ -10,6 +10,8 @@
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css"> -->
   <link rel="stylesheet" href="/templates/style"  />
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <script src="/product/js"></script>
 </head>
 <body>
 
@@ -92,10 +94,25 @@
                           <div class="text light-outline">
                             <h3 class="money ">$10.99 <small class="text small-stuff">+ $4.99 shipping</small></h3>
 
-                            <br />
+
                             <br />
 
-                            <div class="dropdown">
+
+                            <div class="form-group">
+                              <label for="sel1 text-in-panel">Size:</label>
+                              <select class="form-control" id="sel1" onchange="myScript();">
+                                <option>Small</option>
+                                <option>Medium</option>
+                                <option>Large</option>
+                              </select>
+                            </div>
+
+
+                            <br />
+
+                            <button class="btn btn-primary " type="button">Buy now!</button>
+
+                            <!-- <div class="dropdown">
                               <button class="btn btn-secondary dropdown-toggle" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Select size:
                                 <span class="caret"></span>
@@ -105,7 +122,7 @@
                                 <li><a href="#">Medium</a></li>
                                 <li><a href="#">Large</a></li>
                               </ul>
-                            </div>
+                            </div> -->
 
 
                           </div>
