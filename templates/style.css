@@ -78,11 +78,26 @@ body {
 
 
 
+
 .card-img-top {
     width: 20%;
     /* height: 20%; */
     margin-bottom: 15px;
     object-fit: scale-down;
+}
+
+.info-img-top {
+    width: 50%;
+    /* height: 20%; */
+    object-fit: scale-down;
+}
+
+.info-text-small {
+  font-size: small;;
+}
+
+.info-text-large {
+  font-size: 50px;;
 }
 
 .shop-image {

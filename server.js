@@ -89,6 +89,11 @@ router.get('/product/js',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+router.get('/icon/bottle',function(req,res){
+  res.sendFile(path.join(__dirname+'/templates/bottle.png'));
+  //__dirname : It will resolve to your project folder.
+});
+
 //add the router
 app.use('/', router);
 app.listen(process.env.port || 8000);
