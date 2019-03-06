@@ -1,0 +1,43 @@
+{
+  "title": "Strawberry",
+  "desc": "The classic. The simple strawberry combined with a yogurt and milk base results in a perfect smoothie that never gets old.",
+
+  "image-url": "/smoothies/strawberry",
+
+  "calories": 180,
+  "total fat": "3g",
+  "total fat percent": "5%",
+
+  "sat fat": "2g",
+  "sat fat percent": "10%",
+
+  "trans fat": "0g",
+  "trans fat percent": "",
+
+  "cholesterol": "15mg",
+  "cholesterol percent": "5%",
+
+  "sodium": "150mg",
+  "sodium percent": "6%",
+
+  "carbs": "22g",
+  "carbs percent": "8%",
+
+  "fiber": "0g",
+  "fiber percent": "0%",
+
+  "sugar": "25g",
+  "sugar percent": "",
+
+  "added sugar": "0g",
+  "added sugar percent": "0%",
+
+  "sodium": "150mg",
+  "sodium percent": "6%",
+
+  "vit d": "1mcg 6%",
+  "calcium": "179mg 15%",
+  "iron": "1mg 6%",
+  "potassium": "367mg 8%"
+
+}
