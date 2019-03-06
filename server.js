@@ -115,6 +115,11 @@ router.get('/product/blueberry',function(req,res){
 
     });
 
+router.get('/product/kale',function(req,res){
+    res.sendFile(path.join(__dirname+'/templates/products/kale.html'));
+
+  });
+
 
 
 

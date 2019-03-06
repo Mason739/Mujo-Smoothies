@@ -1,0 +1,43 @@
+{
+  "title": "Kale",
+  "desc": "A health focused smoothie choice that doesn't compromise on flavor or texture. (Vegan option avaliable)",
+
+  "image-url": "/smoothies/kale",
+
+  "calories": 232,
+  "total fat": "5g",
+  "total fat percent": "8%",
+
+  "sat fat": "1g",
+  "sat fat percent": "3%",
+
+  "trans fat": "0g",
+  "trans fat percent": "",
+
+  "cholesterol": "0mg",
+  "cholesterol percent": "0%",
+
+  "carbs": "49g",
+  "carbs percent": "17%",
+
+  "fiber": "12g",
+  "fiber percent": "45%",
+
+  "sugar": "31g",
+  "sugar percent": "",
+
+  "added sugar": "0g",
+  "added sugar percent": "0%",
+
+  "sodium": "38mg",
+  "sodium percent": "2%",
+
+  "protein" : "7g",
+  "protein percent" : "14%",
+
+  "vit d": "0mcg 0%",
+  "calcium": "275mg 22%",
+  "iron": "23mg 13%",
+  "potassium": "260mg 6%"
+
+}
