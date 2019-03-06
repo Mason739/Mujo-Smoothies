@@ -121,7 +121,7 @@
 
 <p class="info-text-small">
                                 <span class="info-text-large">
-                                180
+                                {{calories}}
                               </span>
 
 
@@ -241,7 +241,7 @@
                           </div>
 
                           <div class="col-sm-5 no-margins-padding-left">
-                            <h1 class=nutrition-calories-number>180</h1>
+                            <h1 class=nutrition-calories-number>{{calories}}</h1>
                           </div>
 
                         </div>
@@ -263,29 +263,30 @@
                         <!-- single line in label -->
                         <div class="row">
                           <div class="col-sm-6 no-marigns-padding-right">
-                            <p class="nutrition-info-line"><b>Total Fat</b>  3g </p>
+                            <p class="nutrition-info-line"><b>Total Fat</b>  {{total fat}} </p>
                           </div>
 
                           <div class="col-sm-6 no-margins-padding-left">
-                            <p class="nutrition-info-percent">5%</p>
+                            <p class="nutrition-info-percent">{{total fat percent}}</p>
                           </div>
                         </div>
 
                         <!-- saturated fat -->
                         <div class="row">
                           <div class="col-sm-6 no-marigns-padding-right">
-                            <p class="nutrition-info-line nutrition-indent"> Saturated Fat  2g </p>
+                            <p class="nutrition-info-line nutrition-indent"> Saturated Fat  {{sat fat}} </p>
                           </div>
 
                           <div class="col-sm-6 no-margins-padding-left">
-                            <p class="nutrition-info-percent">10%</p>
+                            <p class="nutrition-info-percent">{{sat fat percent}}</p>
                           </div>
                         </div>
 
+                        <!-- TODO: Trans fat % value will always be invisible -->
                         <!-- saturated fat -->
                         <div class="row">
                           <div class="col-sm-6 no-marigns-padding-right">
-                            <p class="nutrition-info-line nutrition-indent"> <i>Trans</i> Fat  0g </p>
+                            <p class="nutrition-info-line nutrition-indent"> <i>Trans</i> Fat  {{trans fat}} </p>
                           </div>
 
                           <div class="col-sm-6 no-margins-padding-left">
@@ -296,22 +297,22 @@
                         <!-- cholesterol -->
                         <div class="row">
                           <div class="col-sm-6 no-marigns-padding-right">
-                            <p class="nutrition-info-line"><b>Cholesterol</b> 15mg </p>
+                            <p class="nutrition-info-line"><b>Cholesterol</b> {{cholesterol}} </p>
                           </div>
 
                           <div class="col-sm-6 no-margins-padding-left">
-                            <p class="nutrition-info-percent">5%</p>
+                            <p class="nutrition-info-percent">{{cholesterol percent}}</p>
                           </div>
                         </div>
 
                         <!-- soldium -->
                         <div class="row">
                           <div class="col-sm-6 no-marigns-padding-right">
-                            <p class="nutrition-info-line-thick"><b>Sodium</b> 150mg </p>
+                            <p class="nutrition-info-line-thick"><b>Sodium</b> {{sodium}} </p>
                           </div>
 
                           <div class="col-sm-6 no-margins-padding-left">
-                            <p class="nutrition-info-percent-thick">6%</p>
+                            <p class="nutrition-info-percent-thick">{{sodium percent}}</p>
                           </div>
                         </div>
 
@@ -340,29 +341,30 @@
                           <!-- total carb -->
                           <div class="row">
                             <div class="col-sm-6 no-marigns-padding-right">
-                              <p class="nutrition-info-line"><b>Total Carbohydrate</b>  22g </p>
+                              <p class="nutrition-info-line"><b>Total Carbohydrate</b>  {{carbs}} </p>
                             </div>
 
                             <div class="col-sm-6 no-margins-padding-left">
-                              <p class="nutrition-info-percent">8%</p>
+                              <p class="nutrition-info-percent">{{carbs percent}}</p>
                             </div>
                           </div>
 
                           <!-- dietary fiber -->
                           <div class="row">
                             <div class="col-sm-6 no-marigns-padding-right">
-                              <p class="nutrition-info-line nutrition-indent"> Dietary Fiber  0g </p>
+                              <p class="nutrition-info-line nutrition-indent"> Dietary Fiber  {{fiber}} </p>
                             </div>
 
                             <div class="col-sm-6 no-margins-padding-left">
-                              <p class="nutrition-info-percent">0%</p>
+                              <p class="nutrition-info-percent">{{fiber percent}}</p>
                             </div>
                           </div>
 
                           <!-- total sugars -->
+                          <!-- TODO: sugar % will always be white, even when not 0 -->
                           <div class="row">
                             <div class="col-sm-6 no-marigns-padding-right">
-                              <p class="nutrition-info-line nutrition-indent"> Total Sugars  25g </p>
+                              <p class="nutrition-info-line nutrition-indent"> Total Sugars  {{sugar}} </p>
                             </div>
 
                             <div class="col-sm-6 no-margins-padding-left">
@@ -373,24 +375,25 @@
                           <!-- added sugar -->
                           <div class="row">
                             <div class="col-sm-10 no-marigns-padding-right">
-                              <p class="nutrition-info-line nutrition-double-indent">Includes 0g Added Sugars </p>
+                              <p class="nutrition-info-line nutrition-double-indent">Includes {{added sugar}} Added Sugars </p>
                             </div>
 
                             <div class="col-sm-2 no-margins-padding-left">
-                              <p class="nutrition-info-percent">0%</p>
+                              <p class="nutrition-info-percent">{{added sugar percent}}</p>
                             </div>
                           </div>
 
                           <!-- protein -->
                           <div class="row">
                             <div class="col-sm-6 no-marigns-padding-right">
-                              <p class="nutrition-info-line-thick"><b>Protein</b> 10g </p>
+                              <p class="nutrition-info-line-thick"><b>Protein</b> {{protein}} </p>
                             </div>
 
                             <div class="col-sm-6 no-margins-padding-left">
-                              <p class="nutrition-info-percent-thick">20%</p>
+                              <p class="nutrition-info-percent-thick">{{protein percent}}</p>
                             </div>
                           </div>
+
 
 
 
@@ -398,7 +401,7 @@
 
 
                           <div class="col-sm-10">
-                            <p class="nutrition-info-line">Vitamin D 1mcg 6%  &nbsp;&nbsp; &nbsp;&nbsp;<b>•</b> &nbsp;&nbsp; &nbsp;&nbsp; Calcium 179mg 15%  &nbsp;&nbsp; &nbsp;&nbsp;<b>•</b>&nbsp;&nbsp; &nbsp;&nbsp;  Iron 1mg 6%  &nbsp;&nbsp; &nbsp;&nbsp;<b>•</b> &nbsp;&nbsp; &nbsp;&nbsp; Potassium 367mg 8% </p>
+                            <p class="nutrition-info-line">Vitamin D {{vit d}}  &nbsp;&nbsp; &nbsp;&nbsp;<b>•</b> &nbsp;&nbsp; &nbsp;&nbsp; Calcium {{calcium}}  &nbsp;&nbsp; &nbsp;&nbsp;<b>•</b>&nbsp;&nbsp; &nbsp;&nbsp;  Iron {{iron}}  &nbsp;&nbsp; &nbsp;&nbsp;<b>•</b> &nbsp;&nbsp; &nbsp;&nbsp; Potassium {{potassium}} </p>
 
                             <p class="nutrition-small-text">
                               *The % Daily Value tells you how much a nutriet in a serving of food contributes to a daily diet. 2000 calories a day is used for general nutrition advice.

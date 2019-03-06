@@ -4,8 +4,8 @@
 
   "image-url": "/smoothies/strawberry",
 
-  "calories": 180,
-  "total fat": "3g",
+  "calories": 220,
+  "total fat": "550g",
   "total fat percent": "5%",
 
   "sat fat": "2g",
@@ -16,9 +16,6 @@
 
   "cholesterol": "15mg",
   "cholesterol percent": "5%",
-
-  "sodium": "150mg",
-  "sodium percent": "6%",
 
   "carbs": "22g",
   "carbs percent": "8%",
@@ -34,6 +31,9 @@
 
   "sodium": "150mg",
   "sodium percent": "6%",
+
+  "protein" : "10g",
+  "protein percent" : "20%",
 
   "vit d": "1mcg 6%",
   "calcium": "179mg 15%",
