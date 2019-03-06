@@ -1,0 +1,43 @@
+{
+  "title": "Blueberry",
+  "desc": "This cool and refreshing smoothie provides a nice chill, especially on a hot day. Made with pleanty of blueberries.",
+
+  "image-url": "/smoothies/blueberry",
+
+  "calories": 100,
+  "total fat": "1g",
+  "total fat percent": "1%",
+
+  "sat fat": "0g",
+  "sat fat percent": "0%",
+
+  "trans fat": "0g",
+  "trans fat percent": "",
+
+  "cholesterol": "0mg",
+  "cholesterol percent": "0%",
+
+  "carbs": "34g",
+  "carbs percent": "12%",
+
+  "fiber": "5g",
+  "fiber percent": "18%",
+
+  "sugar": "16g",
+  "sugar percent": "",
+
+  "added sugar": "0g",
+  "added sugar percent": "0%",
+
+  "sodium": "40mg",
+  "sodium percent": "2%",
+
+  "protein" : "2g",
+  "protein percent" : "4%",
+
+  "vit d": "0mcg 0%",
+  "calcium": "100mg 8%",
+  "iron": "14mg 8%",
+  "potassium": "260mg 6%"
+
+}

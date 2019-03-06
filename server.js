@@ -99,6 +99,27 @@ router.get('/test/output.html',function(req,res){
   //__dirname : It will resolve to your project folder.
 });
 
+
+
+
+
+// ============ AUTO CREATED LINES ============
+
+router.get('/product/strawberry',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/strawberry.html'));
+
+    });
+
+router.get('/product/blueberry',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/blueberry.html'));
+
+    });
+
+
+
+
+
+
 //add the router
 app.use('/', router);
 app.listen(process.env.port || 8000);
