@@ -377,7 +377,7 @@ h3 {
 
   border-bottom: solid;
   border-bottom-color: black;
-  border-bottom-width: 2px;
+  border-bottom-width: 3px;
 
   margin-bottom: 0;
   margin-top: 5px;
@@ -401,7 +401,7 @@ h3 {
 
   border-bottom: solid;
   border-bottom-color: black;
-  border-bottom-width: 2px;
+  border-bottom-width: 3px;
 
   line-height: 1em;
 
@@ -442,6 +442,108 @@ h3 {
   color: black;
   font-weight: bold;
   font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.nutrition-top-label-left {
+  color: black;
+  text-align: left !important;
+
+  margin-bottom: 0;
+  line-height: 1em;
+}
+
+.nutrition-top-label-right {
+  color: black;
+  text-align: right !important;
+
+  margin-bottom: 0;
+  line-height: 1em;
+}
+
+.nutrition-thick-underline {
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 6px;
+
+  margin: 0;
+  margin-top: 2px;
+
+}
+
+.nutrition-info-line {
+  color: black;
+  text-align: left;
+  margin: 0;
+
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+
+  padding-right: 0;
+
+}
+
+.nutrition-info-percent {
+  text-align: right;
+  color: black;
+  margin: 0;
+
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+
+  padding-left: 0;
+}
+
+/* thick underline */
+
+.nutrition-info-line-thick {
+  color: black;
+  text-align: left;
+  margin: 0;
+
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 6px;
+
+  padding-right: 0;
+
+}
+
+.nutrition-info-percent-thick {
+  text-align: right;
+  color: black;
+  margin: 0;
+
+  border-bottom: solid;
+  border-bottom-color: black;
+  border-bottom-width: 6px;
+
+  padding-left: 0;
+}
+
+.nutrition-indent {
+  padding-left: 15px;
+}
+
+.nutrition-double-indent {
+  padding-left: 30px;
+}
+
+.nutrition-small-text {
+  text-align: left;
+  color: black;
+
+}
+
+.no-margins-padding-left {
+  padding-left: 0 !important;
+  margin-left: 0;
+}
+
+.no-marigns-padding-right {
+  padding-right: 0;
+  margin-right: 0;
 }
 
 .no-margins-padding {
