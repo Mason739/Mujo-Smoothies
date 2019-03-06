@@ -105,8 +105,38 @@ router.get('/test/output.html',function(req,res){
 
 // ============ AUTO CREATED LINES ============
 
+router.get('/product/banana',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/banana.html'));
+
+    });
+
+router.get('/product/pomegranate',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/pomegranate.html'));
+
+    });
+
 router.get('/product/strawberry',function(req,res){
       res.sendFile(path.join(__dirname+'/templates/products/strawberry.html'));
+
+    });
+
+router.get('/product/super-fruit',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/super-fruit.html'));
+
+    });
+
+router.get('/product/strawberry-banana',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/strawberry-banana.html'));
+
+    });
+
+router.get('/product/strawberry-banana-pb',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/strawberry-banana-pb.html'));
+
+    });
+
+router.get('/product/kale',function(req,res){
+      res.sendFile(path.join(__dirname+'/templates/products/kale.html'));
 
     });
 
@@ -114,11 +144,6 @@ router.get('/product/blueberry',function(req,res){
       res.sendFile(path.join(__dirname+'/templates/products/blueberry.html'));
 
     });
-
-router.get('/product/kale',function(req,res){
-    res.sendFile(path.join(__dirname+'/templates/products/kale.html'));
-
-  });
 
 
 

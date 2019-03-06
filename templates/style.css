@@ -24,6 +24,13 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+}
+
 /* .btn-default:hover,
 .btn-default:focus {
   background-color: #cdcdcd;

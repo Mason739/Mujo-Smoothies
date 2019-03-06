@@ -1,0 +1,43 @@
+{
+  "title": "Strawberry Banana Peanut Butter",
+  "desc": "An unusually tasty combination of strawberry, banana, and peanut butter to create a very thick smoothie blend.",
+
+  "image-url": "/smoothies/strawbananapb",
+
+  "calories": 150,
+  "total fat": "13g",
+  "total fat percent": "28%",
+
+  "sat fat": "2g",
+  "sat fat percent": "1%",
+
+  "trans fat": "0g",
+  "trans fat percent": "",
+
+  "cholesterol": "3mg",
+  "cholesterol percent": "1%",
+
+  "carbs": "38g",
+  "carbs percent": "39%",
+
+  "fiber": "8g",
+  "fiber percent": "12%",
+
+  "sugar": "18g",
+  "sugar percent": "",
+
+  "added sugar": "0g",
+  "added sugar percent": "0%",
+
+  "sodium": "194mg",
+  "sodium percent": "10%",
+
+  "protein" : "3g",
+  "protein percent" : "2%",
+
+  "vit d": "0mcg 0%",
+  "calcium": "275mg 22%",
+  "iron": "23mg 13%",
+  "potassium": "260mg 6%"
+
+}
