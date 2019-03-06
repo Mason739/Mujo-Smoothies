@@ -1,0 +1,43 @@
+{
+  "title": "Strawberry Banana",
+  "desc": "Combines the best of the best. This combination of the greatest fruits in the smoothie business creates one of our best selling smoothies.",
+
+  "image-url": "/smoothies/strawberrybanana",
+
+  "calories": 150,
+  "total fat": "1g",
+  "total fat percent": "1%",
+
+  "sat fat": "0g",
+  "sat fat percent": "0%",
+
+  "trans fat": "0g",
+  "trans fat percent": "",
+
+  "cholesterol": "3mg",
+  "cholesterol percent": "1%",
+
+  "carbs": "35g",
+  "carbs percent": "12%",
+
+  "fiber": "0g",
+  "fiber percent": "0%",
+
+  "sugar": "35g",
+  "sugar percent": "",
+
+  "added sugar": "0g",
+  "added sugar percent": "0%",
+
+  "sodium": "50mg",
+  "sodium percent": "2%",
+
+  "protein" : "3g",
+  "protein percent" : "2%",
+
+  "vit d": "0mcg 0%",
+  "calcium": "275mg 22%",
+  "iron": "23mg 13%",
+  "potassium": "260mg 6%"
+
+}
