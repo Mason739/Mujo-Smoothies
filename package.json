@@ -1,0 +1,26 @@
+{
+  "name": "mujo-smoothies",
+  "version": "1.0.0",
+  "description": "Smoothie website for computer programming",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mustache": "^3.0.1",
+    "pkg": "^4.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mason739/Mujo-Smoothies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mason739/Mujo-Smoothies/issues"
+  },
+  "homepage": "https://github.com/Mason739/Mujo-Smoothies#readme"
+}
